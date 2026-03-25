@@ -3041,6 +3041,7 @@ name = "youtube-thumbnail-maker"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "google-cloud-aiplatform" },
     { name = "langchain", extra = ["openai"] },
     { name = "langchain-google-vertexai" },
     { name = "langgraph" },
@@ -3059,6 +3060,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "google-cloud-aiplatform" },
     { name = "langchain", extras = ["openai"], specifier = ">=0.3.27" },
     { name = "langchain-google-vertexai" },
     { name = "langgraph", specifier = ">=0.6.7" },
