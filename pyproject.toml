@@ -14,7 +14,8 @@ dependencies = [
     "tiktoken>=0.11.0",
     "langchain_google_vertexai",
     "google-cloud-aiplatform",
-    "yt_dlp"
+    "yt_dlp",
+    "Pillow"
 ]
 
 [dependency-groups]
